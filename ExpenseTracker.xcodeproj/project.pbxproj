@@ -16,6 +16,7 @@
 		AE3A1B152B33787800DCF2F5 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A1B142B33787800DCF2F5 /* TransactionRow.swift */; };
 		AE3A1B172B337A2300DCF2F5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A1B162B337A2300DCF2F5 /* Extensions.swift */; };
 		AE3A1B1A2B337CD500DCF2F5 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = AE3A1B192B337CD500DCF2F5 /* SwiftUIFontIcon */; };
+		AE3A1B1C2B337DC900DCF2F5 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A1B1B2B337DC900DCF2F5 /* TransactionListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AE3A1B122B33781600DCF2F5 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		AE3A1B142B33787800DCF2F5 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		AE3A1B162B337A2300DCF2F5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AE3A1B1B2B337DC900DCF2F5 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				AE3A1B002B336D2600DCF2F5 /* ExpenseTrackerApp.swift */,
 				AE3A1B142B33787800DCF2F5 /* TransactionRow.swift */,
+				AE3A1B1B2B337DC900DCF2F5 /* TransactionListViewModel.swift */,
 				AE3A1B102B33779B00DCF2F5 /* TransactionModel.swift */,
 				AE3A1B022B336D2600DCF2F5 /* ContentView.swift */,
 				AE3A1B042B336D2600DCF2F5 /* Assets.xcassets */,
@@ -162,6 +165,7 @@
 				AE3A1B132B33781600DCF2F5 /* PreviewData.swift in Sources */,
 				AE3A1B112B33779B00DCF2F5 /* TransactionModel.swift in Sources */,
 				AE3A1B032B336D2600DCF2F5 /* ContentView.swift in Sources */,
+				AE3A1B1C2B337DC900DCF2F5 /* TransactionListViewModel.swift in Sources */,
 				AE3A1B012B336D2600DCF2F5 /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
