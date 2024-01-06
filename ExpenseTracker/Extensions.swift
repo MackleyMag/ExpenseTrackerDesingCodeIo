@@ -23,3 +23,7 @@ extension String {
         return parseDate
     }
 }
+
+extension Color {
+    static let systemBackground = Color(uiColor: .systemBackground)
+}
