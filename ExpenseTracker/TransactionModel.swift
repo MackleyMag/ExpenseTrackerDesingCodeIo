@@ -30,7 +30,7 @@ struct Transaction: Identifiable, Decodable, Hashable {
         return .question
     }
     
-    var dateParte: Date {
+    var dateParse: Date {
         date.dateParse()
     }
     
@@ -39,7 +39,7 @@ struct Transaction: Identifiable, Decodable, Hashable {
     }
     
     var month: String {
-        dateParte.formatted(.dateTime.year().month(.wide))
+        dateParse.formatted(.dateTime.year().month(.wide))
     }
 }
 

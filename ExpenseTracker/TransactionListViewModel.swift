@@ -69,7 +69,7 @@ final class TransactionListViewModel: ObservableObject {
         var cumulativeSum = TransactionPrefixSum()
         
         for date in stride(from: dateInterval.start, through: today, by: 60 * 60 * 24) {
-            let dailyExpenses = transactions.filter{ $0.dateParte == date && $0.isExpense }
+            let dailyExpenses = transactions.filter{ $0.dateParse == date && $0.isExpense }
             let dailyTotal = dailyExpenses.reduce(0) { $0 - $1.signedAmount }
             sum += dailyTotal
             sum = sum.roundedTo2Digits()
