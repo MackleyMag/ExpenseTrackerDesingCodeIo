@@ -16,6 +16,8 @@ struct ContentView: View {
                     Text("Overview")
                         .font(.title2)
                         .bold()
+                    RecentTransactionList()
+                        .environmentObject(TransactionListViewModel())
                 }
                 .padding()
                 .frame(maxWidth: .infinity)
@@ -32,12 +34,14 @@ struct ContentView: View {
             }
         }
         .navigationViewStyle(.stack)
+        .accentColor(.primary)
     }
 }
 
 #Preview {
     Group {
         ContentView()
+            .environmentObject(TransactionListViewModel())
             .preferredColorScheme(.dark)
     }
 }
